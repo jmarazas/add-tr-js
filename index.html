@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TABLE 1</title>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="input-box">
+            <input id="name" type="text" autocomplete="off" placeholder="Vardas">
+            <input id="last_name" type="text" autocomplete="off" placeholder="Pavardė">
+            <input id="age" type="number" autocomplete="off" placeholder="Amžius">
+        </div>
+
+        <div class="button-box">
+            <button id="add">Pridėti</button>
+            <button id="remove">Ištrinti pirmą</button>
+            <button id="remove-last">Ištrinti paskutinį</button>
+        </div>
+
+    </div>
+
+    <table>
+        <thead>
+            <tr >
+                <th>vardas</th>
+                <th class="darker">pavardė</th>
+                <th>amžius</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jonas</td>
+                <td>Rimkus</td>
+                <td>54</td>
+            </tr>
+            <tr>
+                <td>Vestina</td>
+                <td>Petronytė</td>
+                <td>31</td>
+            </tr>
+            <tr>
+                <td>Marius</td>
+                <td>Dulinskas</td>
+                <td>23</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
